@@ -5,7 +5,7 @@ import NotFoundPage from './screens/NotFoundPage/NotFoundPage';
 
 export const router = createBrowserRouter([
     {
-        path: '/movie_manager_front_new/',
+        path: '/',
         element: <Home />,
     },
     {
