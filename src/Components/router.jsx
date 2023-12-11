@@ -18,5 +18,5 @@ export const router = createBrowserRouter(
             element: <NotFoundPage />,
         },
     ],
-    { basename: '/app/' }
+    { basename: '/movie_manager_front_new' }
 );
