@@ -1,0 +1,67 @@
+.home-slider {
+    &--top {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 30px;
+        &-title {
+            text-transform: uppercase;
+        }
+        &-nav {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            &-prev,
+            &-next {
+                cursor: pointer;
+            }
+        }
+    }
+
+    &--bottum {
+        .swiper {
+            overflow: visible;
+        }
+        .swiper-slide {
+            width: 220px !important;
+            height: auto;
+        }
+
+        .card-slider {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            &--title {
+                margin-top: 5px;
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+
+                &-name {
+                    padding: 5px 10px 5px 0;
+                    overflow: hidden;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 1;
+                    -webkit-box-orient: vertical;
+                }
+
+                &-year {
+                    padding: 5px 0 5px 10px;
+                    border-left: 1px solid var(--e-global-color-white);
+                }
+            }
+            &--img {
+                width: 100%;
+            }
+
+            &--origin-name {
+                margin-top: auto;
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;
+            }
+        }
+    }
+}

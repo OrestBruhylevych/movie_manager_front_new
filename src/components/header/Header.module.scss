@@ -1,0 +1,10 @@
+@import '../../assets/scss/mixin';
+
+.header {
+    height: 50px;
+    background-color: var(--e-global-color-primary);
+
+    @include md-max {
+        background-color: red;
+    }
+}
